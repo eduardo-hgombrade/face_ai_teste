@@ -1,0 +1,37 @@
+========IDENTIFY FACES========
+
+Create a person group (18d1c443-a01b-46a4-9191-121f74a831cd).
+Create a person group person 'Family1-Dad'.
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Dad) from image `Family1-Dad1.jpg`
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Dad) from image `Family1-Dad2.jpg`
+Create a person group person 'Family1-Mom'.
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Mom) from image `Family1-Mom1.jpg`
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Mom) from image `Family1-Mom2.jpg`
+Create a person group person 'Family1-Son'.
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Son) from image `Family1-Son1.jpg`
+Check whether image is of sufficient quality for recognition
+Add face to the person group person(Family1-Son) from image `Family1-Son2.jpg`
+
+Train person group 18d1c443-a01b-46a4-9191-121f74a831cd.
+Training status: succeeded.
+
+Pausing for 60 seconds to avoid triggering rate limit on free account...
+4 face(s) with 4 having sufficient quality for recognition detected from image `identification1.jpg`
+Person 'Family1-Dad' is identified for the face in: identification1.jpg - ad813534-9141-47b4-bfba-24919223966f, confidence: 0.96807.
+Verification result: is a match? True. confidence: 0.96807
+Person 'Family1-Mom' is identified for the face in: identification1.jpg - 1a39420e-f517-4cee-a898-5d968dac1a7e, confidence: 0.96902.
+Verification result: is a match? True. confidence: 0.96902
+No person is identified for the face in: identification1.jpg - 889394b1-e30f-4147-9be1-302beb5573f3,
+Person 'Family1-Son' is identified for the face in: identification1.jpg - 0557d87b-356c-48a8-988f-ce0ad2239aa5, confidence: 0.9281.
+Verification result: is a match? True. confidence: 0.9281
+
+========DELETE PERSON GROUP========
+
+Deleted the person group 18d1c443-a01b-46a4-9191-121f74a831cd.
+
+End of quickstart.
